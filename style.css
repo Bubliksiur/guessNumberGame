@@ -2,38 +2,31 @@ body {
     text-align: center;
     font-family: sans-serif;
 }
-
 header {
     border: 2px solid rgb(218, 191, 191);
     margin: 30px;
 }
-
 form {
     border: 2px solid rgb(218, 191, 191);
     padding: 40px;
     margin: 30px;
 }
-
 form input {
     padding: 10px 25px 10px 25px;
     width: 250px;
 }
-
 form input:hover {
     background-color: #dadada;
 }
-
 form button {
     padding: 10px 25px 10px 25px;
     cursor: pointer;
     transition: 0.3s;
 }
-
 form button:hover {
     transform: translateY(-10px);
     background-color: #dadada;
 }
-
 #warning {
     font-weight: bold;
     font-size: 25px;
